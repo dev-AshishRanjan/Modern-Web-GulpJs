@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Poppins:wght@300&family=Roboto&family=Roboto+Mono&family=Splash&family=Ubuntu:wght@300;500;700&display=swap');
+$col1:#03001c;
+$col2:#1c2f4b;
+$text:#5b8fb9;
 *{
   margin: 0;
   padding: 0;
@@ -20,6 +23,8 @@ body{
   @include flex;
   flex-direction: column;
   overflow-x: hidden;
+  background: radial-gradient(circle at top,$col2,$col1);
+  color: $text;
   h1{
     font-size: 5rem;
   }
@@ -36,7 +41,7 @@ body{
     img{
       height: 20rem;
       width: 20rem;
-      border-radius: 0.5rem;
+      border-radius: 0.3rem;
       object-fit: cover;
       // transition: all 0.3s ease-in-out;
       &:hover{

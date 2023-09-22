@@ -18,6 +18,8 @@ body {
   align-items: center;
   flex-direction: column;
   overflow-x: hidden;
+  background: radial-gradient(circle at top, #1c2f4b, #03001c);
+  color: #5b8fb9;
 }
 body h1 {
   font-size: 5rem;
@@ -38,7 +40,7 @@ body .images {
 body .images img {
   height: 20rem;
   width: 20rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
   object-fit: cover;
 }
 body .images img:hover {
