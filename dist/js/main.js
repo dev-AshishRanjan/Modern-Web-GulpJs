@@ -1,0 +1,1 @@
+const images=document.querySelectorAll("img");var currCount=3;const totalImg=24;images.forEach(r=>r.addEventListener("click",function(){currCount=(currCount+1)%totalImg,console.log({currCount:currCount}),r.src=`./dist/images/${currCount}.jpeg`}));
