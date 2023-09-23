@@ -39,21 +39,28 @@
 </div>
 
 ## *Run this project*
-1. Clone or (Fork and Clone)
-```sh
+
+1.Clone or (Fork and Clone)
+```bash
 git clone https://github.com/dev-AshishRanjan/Modern-Web-GulpJs.git dev
 ```
-2. Run this code in terminal, to install the gulp cli globally
-```sh
+2.Run this code in terminal, to install the gulp cli globally
+```bash
 npm install --global gulp-cli
 ```
-3. Run this code in terminal, to install all 📦 dependencies for the project
-```sh
+3.Run this code in terminal, to install all 📦 dependencies for the project
+```bash
 npm i
 ```
 4.Finally
-  - To run a specific task (e.g `sass`) run this code in terminal : `gulp sass`
-  - To run the default tas, run this code in terminal : `gulp`
+  - To run a specific task (e.g `sass`) run this code in terminal : 
+  ```bash
+  gulp sass
+  ```
+  - To run the default tas, run this code in terminal : 
+  ```bash
+  gulp
+  ```
 
 ## *Features / Importance of project* : 
 1. sass -> css -> minified css
