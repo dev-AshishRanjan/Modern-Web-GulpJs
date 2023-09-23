@@ -27,4 +27,35 @@
  <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </p>
 
----
+
+# ***Modern Web GulpJs***
+
+## *Tech stack*
+<div align="center">
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png" alt="HTML" title="HTML"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/192158956-48192682-23d5-4bfc-9dfb-6511ade346bc.png" alt="Sass" title="Sass"/></code>
+	<code><img width="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript"/></code>
+	<code><img width="50" src="https://github.com/marwin1991/profile-technology-icons/assets/136815194/c49c6dbd-992a-4f14-9cf4-ff40cb5344ed" alt="Gulp" title="Gulp"/></code>
+</div>
+
+## *Run this project*
+1. Clone or (Fork and Clone)
+```sh
+git clone https://github.com/dev-AshishRanjan/Modern-Web-GulpJs.git dev
+```
+2. Run this code in terminal, to install the gulp cli globally
+```sh
+npm install --global gulp-cli
+```
+3. Run this code in terminal, to install all 📦 dependencies for the project
+```sh
+npm i
+```
+4.Finally
+  - To run a specific task (e.g `sass`) run this code in terminal : `gulp sass`
+  - To run the default tas, run this code in terminal : `gulp`
+
+## *Features / Importance of project* : 
+1. sass -> css -> minified css
+2. Concat all js files to one js file `main.js`
+3. Optimize all the images by minifying them
